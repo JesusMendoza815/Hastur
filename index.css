@@ -1,0 +1,146 @@
+* {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+abbr {
+  text-decoration: overline !important;
+}
+
+.text-mod {
+  color: #76b900 !important;
+}
+
+#header {
+  background-color: #000 !important;
+}
+
+.btn-hover {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.btn-hover:hover {
+  border: 1px solid #76b900;
+  background: transparent;
+  color: #76b900;
+}
+
+.collaps-border:hover {
+  border: 1px solid #76b900 !important;
+  background: transparent;
+}
+.collaps-border:focus {
+  outline: none !important;
+}
+
+#header img {
+  width: 80px;
+}
+
+#main .carousel-inner img {
+  max-height: 85vh;
+  object-fit: cover;
+  filter: grayscale(70%);
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+#carousel .login-bg {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  height: 100vh;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+
+#collection {
+  background: rgb(0, 0, 0);
+  color: white;
+}
+#collection h2 {
+  background: rgb(0, 0, 0);
+  color: #76b900;
+}
+
+.overlay h1 {
+  text-transform: uppercase;
+  color: #76b900;
+}
+
+.card {
+  background: black;
+  border: 1px solid #76b900;
+}
+.card-details {
+  background: black;
+}
+
+.card-bg {
+  display: block !important;
+  width: 100% !important;
+  background-position: center;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+}
+
+
+
+#rtxSeries {
+  background: black;
+  color: white;
+}
+
+#rtxSeries img {
+  max-width: 100%;
+}
+
+.font-mod {
+  font-family: 'Electrolize', sans-serif !important;
+  text-transform: uppercase;
+  color: #76b900 !important;
+  font-weight: bold;
+}
+
+#form-container {
+  background:rgb(0, 0, 0);
+  color: white;
+}
+#form-container h2 {
+  color: #76b900;
+}
+
+#footer-container {
+  background:rgb(0, 0, 0);
+  color: white;
+}
+
+.btn-footer:hover {
+  background-color: #76b900 !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.close {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+} 
+
+.price {
+  color: #76b900;
+  font-weight: 700;
+}
