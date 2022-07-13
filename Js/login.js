@@ -1,5 +1,5 @@
 const passUser = 123;
-const userName = "Kodecamp";
+const userName = "user";
 
 function log() {
     const userElement = document.getElementById("Id-user");
@@ -10,7 +10,6 @@ function log() {
 
     if (pass == passUser && user == userName) {
         window.location = '/main.html';
-        alert('Hola ' + userName);
     } else {
         alert('Datos Incorrectos');
     }
